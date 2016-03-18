@@ -1,11 +1,16 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.app
 
-# Other files and folders
-.settings/
+.DS_Store
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+#ETC
+*.pdf
+*.ibooks
+*.zip
+*.rar
