@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="perguntaLabel" destination="Rgq-bq-7mV" id="8kz-vr-qaB"/>
+                <outlet property="respostaLabel" destination="0OO-xO-Hqz" id="dRV-lb-Mmw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mC-qD-hl4">
+                    <rect key="frame" x="136" y="424" width="329" height="30"/>
+                    <color key="backgroundColor" red="0.8515809342509425" green="0.83289142902031388" blue="0.8844894255050505" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="329" id="xuZ-0Z-AAy"/>
+                    </constraints>
+                    <color key="tintColor" red="0.058493826583570725" green="0.045209152815406779" blue="0.66820549242424243" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Mostrar Resposta">
+                        <color key="titleShadowColor" red="0.48139689955291609" green="0.47083176180694658" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="mostraResposta:" destination="-1" eventType="touchUpInside" id="afF-qs-NVq"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="????" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0OO-xO-Hqz">
+                    <rect key="frame" x="136" y="327" width="329" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdc-SW-LWs">
+                    <rect key="frame" x="136" y="143" width="329" height="27"/>
+                    <color key="backgroundColor" red="0.80573960535935241" green="0.7827941708518984" blue="0.84574490307486638" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="329" id="YWO-Nb-hNX"/>
+                        <constraint firstAttribute="height" constant="30" id="ly1-Hx-dnV"/>
+                    </constraints>
+                    <state key="normal" title="Mostrar Pergunta">
+                        <color key="titleShadowColor" red="0.50392597853535359" green="0.50392597853535359" blue="0.50392597853535359" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="mostrarPergunta:" destination="-1" eventType="touchUpInside" id="jwS-BH-Yz9"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pergunta" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgq-bq-7mV">
+                    <rect key="frame" x="136" y="53" width="329" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="329" id="lmX-XR-8dp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7T-dj-Ylu">
+                    <rect key="frame" x="136" y="515" width="329" height="30"/>
+                    <color key="backgroundColor" red="0.89389645536244799" green="0.87297184824540275" blue="0.06302108915926935" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="329" id="2rF-St-ZAk"/>
+                    </constraints>
+                    <state key="normal" title="Tela 2">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="irPraTela2:" destination="-1" eventType="touchUpInside" id="CFV-ZE-N9z"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.63097424100028843" green="0.41932524573108565" blue="0.87101483585858586" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Rgq-bq-7mV" secondAttribute="centerX" constant="-0.5" id="14Q-QT-5X6"/>
+                <constraint firstItem="xdc-SW-LWs" firstAttribute="top" secondItem="Rgq-bq-7mV" secondAttribute="bottom" constant="66" id="1ne-aR-eqc"/>
+                <constraint firstItem="Rgq-bq-7mV" firstAttribute="centerX" secondItem="0OO-xO-Hqz" secondAttribute="centerX" id="2Wl-wc-cYr"/>
+                <constraint firstItem="5mC-qD-hl4" firstAttribute="top" secondItem="0OO-xO-Hqz" secondAttribute="bottom" constant="76" id="7fc-hM-zkZ"/>
+                <constraint firstItem="Rgq-bq-7mV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="53" id="8TH-ky-eUp"/>
+                <constraint firstAttribute="centerX" secondItem="W7T-dj-Ylu" secondAttribute="centerX" constant="-0.5" id="8eK-hb-D9P"/>
+                <constraint firstAttribute="centerY" secondItem="5mC-qD-hl4" secondAttribute="centerY" constant="-139" id="K1D-UF-lhm"/>
+                <constraint firstItem="5mC-qD-hl4" firstAttribute="centerX" secondItem="0OO-xO-Hqz" secondAttribute="centerX" id="SO3-3j-rAa"/>
+                <constraint firstAttribute="centerY" secondItem="xdc-SW-LWs" secondAttribute="centerY" constant="145" id="SuQ-h8-VVj"/>
+                <constraint firstItem="Rgq-bq-7mV" firstAttribute="centerX" secondItem="xdc-SW-LWs" secondAttribute="centerX" id="YbS-oI-0XA"/>
+                <constraint firstItem="W7T-dj-Ylu" firstAttribute="top" secondItem="5mC-qD-hl4" secondAttribute="bottom" constant="61" id="sqR-3d-WBc"/>
+                <constraint firstItem="W7T-dj-Ylu" firstAttribute="centerX" secondItem="5mC-qD-hl4" secondAttribute="centerX" id="taa-WK-7eh"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
