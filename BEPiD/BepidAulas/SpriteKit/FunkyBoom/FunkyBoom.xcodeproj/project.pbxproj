@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF6ECA181B3094E900F16498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA171B3094E900F16498 /* main.m */; };
+		DF6ECA1B1B3094E900F16498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA1A1B3094E900F16498 /* AppDelegate.m */; };
+		DF6ECA1E1B3094E900F16498 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA1D1B3094E900F16498 /* GameScene.m */; };
+		DF6ECA201B3094E900F16498 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA1F1B3094E900F16498 /* GameScene.sks */; };
+		DF6ECA231B3094E900F16498 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA221B3094E900F16498 /* GameViewController.m */; };
+		DF6ECA261B3094E900F16498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA241B3094E900F16498 /* Main.storyboard */; };
+		DF6ECA281B3094E900F16498 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA271B3094E900F16498 /* Images.xcassets */; };
+		DF6ECA2B1B3094E900F16498 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA291B3094E900F16498 /* LaunchScreen.xib */; };
+		DF6ECA371B3094E900F16498 /* FunkyBoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA361B3094E900F16498 /* FunkyBoomTests.m */; };
+		DF6ECA481B309CE800F16498 /* attacking1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA431B309CE800F16498 /* attacking1.png */; };
+		DF6ECA491B309CE800F16498 /* attacking2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA441B309CE800F16498 /* attacking2.png */; };
+		DF6ECA4A1B309CE800F16498 /* attacking3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA451B309CE800F16498 /* attacking3.png */; };
+		DF6ECA4B1B309CE800F16498 /* attacking4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA461B309CE800F16498 /* attacking4.png */; };
+		DF6ECA4C1B309CE800F16498 /* attacking5.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA471B309CE800F16498 /* attacking5.png */; };
+		DF6ECA501B309D0B00F16498 /* idle1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA4D1B309D0B00F16498 /* idle1.png */; };
+		DF6ECA511B309D0B00F16498 /* idle2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA4E1B309D0B00F16498 /* idle2.png */; };
+		DF6ECA521B309D0B00F16498 /* idle3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA4F1B309D0B00F16498 /* idle3.png */; };
+		DF6ECA571B309D1B00F16498 /* walking1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA531B309D1B00F16498 /* walking1.png */; };
+		DF6ECA581B309D1B00F16498 /* walking2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA541B309D1B00F16498 /* walking2.png */; };
+		DF6ECA591B309D1B00F16498 /* walking3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA551B309D1B00F16498 /* walking3.png */; };
+		DF6ECA5A1B309D1B00F16498 /* walking4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA561B309D1B00F16498 /* walking4.png */; };
+		DF6ECA5E1B309D2900F16498 /* greenBomb.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA5B1B309D2900F16498 /* greenBomb.png */; };
+		DF6ECA5F1B309D2900F16498 /* pinkBomb.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA5C1B309D2900F16498 /* pinkBomb.png */; };
+		DF6ECA601B309D2900F16498 /* silverBomb.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA5D1B309D2900F16498 /* silverBomb.png */; };
+		DF6ECA641B309DB800F16498 /* bombAway.wav in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA611B309DB800F16498 /* bombAway.wav */; };
+		DF6ECA651B309DB800F16498 /* hitSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA621B309DB800F16498 /* hitSound.wav */; };
+		DF6ECA661B309DB800F16498 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA631B309DB800F16498 /* music.mp3 */; };
+		DF6ECA691B309DCA00F16498 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA671B309DCA00F16498 /* background.png */; };
+		DF6ECA6A1B309DCA00F16498 /* SquareParticle.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA681B309DCA00F16498 /* SquareParticle.png */; };
+		DF6ECA6C1B309DDC00F16498 /* HitParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA6B1B309DDC00F16498 /* HitParticle.sks */; };
+		DF6ECA741B309F3C00F16498 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA731B309F3C00F16498 /* GameObject.m */; };
+		DF6ECA771B30A25D00F16498 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA761B30A25D00F16498 /* Player.m */; };
+		DF6ECA7A1B30B4E600F16498 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA791B30B4E600F16498 /* GameLayer.m */; };
+		DF6ECA7D1B30B6F400F16498 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA7C1B30B6F400F16498 /* BackgroundLayer.m */; };
+		DF6ECA801B30B73B00F16498 /* HudLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA7F1B30B73B00F16498 /* HudLayer.m */; };
+		DF6ECA851B320E3100F16498 /* Bomb.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA841B320E3100F16498 /* Bomb.m */; };
+		DF6ECA881B33590300F16498 /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6ECA871B33590300F16498 /* GameState.m */; };
+		DF6ECA891B33629300F16498 /* 5x5_pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF6ECA6E1B309E0200F16498 /* 5x5_pixel.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF6ECA311B3094E900F16498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6ECA0A1B3094E900F16498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6ECA111B3094E900F16498;
+			remoteInfo = FunkyBoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF6ECA121B3094E900F16498 /* FunkyBoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkyBoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6ECA161B3094E900F16498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6ECA171B3094E900F16498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF6ECA191B3094E900F16498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF6ECA1A1B3094E900F16498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF6ECA1C1B3094E900F16498 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DF6ECA1D1B3094E900F16498 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DF6ECA1F1B3094E900F16498 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DF6ECA211B3094E900F16498 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DF6ECA221B3094E900F16498 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DF6ECA251B3094E900F16498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF6ECA271B3094E900F16498 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF6ECA2A1B3094E900F16498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF6ECA301B3094E900F16498 /* FunkyBoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunkyBoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6ECA351B3094E900F16498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6ECA361B3094E900F16498 /* FunkyBoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunkyBoomTests.m; sourceTree = "<group>"; };
+		DF6ECA431B309CE800F16498 /* attacking1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attacking1.png; sourceTree = "<group>"; };
+		DF6ECA441B309CE800F16498 /* attacking2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attacking2.png; sourceTree = "<group>"; };
+		DF6ECA451B309CE800F16498 /* attacking3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attacking3.png; sourceTree = "<group>"; };
+		DF6ECA461B309CE800F16498 /* attacking4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attacking4.png; sourceTree = "<group>"; };
+		DF6ECA471B309CE800F16498 /* attacking5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attacking5.png; sourceTree = "<group>"; };
+		DF6ECA4D1B309D0B00F16498 /* idle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idle1.png; sourceTree = "<group>"; };
+		DF6ECA4E1B309D0B00F16498 /* idle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idle2.png; sourceTree = "<group>"; };
+		DF6ECA4F1B309D0B00F16498 /* idle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idle3.png; sourceTree = "<group>"; };
+		DF6ECA531B309D1B00F16498 /* walking1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walking1.png; sourceTree = "<group>"; };
+		DF6ECA541B309D1B00F16498 /* walking2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walking2.png; sourceTree = "<group>"; };
+		DF6ECA551B309D1B00F16498 /* walking3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walking3.png; sourceTree = "<group>"; };
+		DF6ECA561B309D1B00F16498 /* walking4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walking4.png; sourceTree = "<group>"; };
+		DF6ECA5B1B309D2900F16498 /* greenBomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBomb.png; sourceTree = "<group>"; };
+		DF6ECA5C1B309D2900F16498 /* pinkBomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkBomb.png; sourceTree = "<group>"; };
+		DF6ECA5D1B309D2900F16498 /* silverBomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silverBomb.png; sourceTree = "<group>"; };
+		DF6ECA611B309DB800F16498 /* bombAway.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bombAway.wav; sourceTree = "<group>"; };
+		DF6ECA621B309DB800F16498 /* hitSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitSound.wav; sourceTree = "<group>"; };
+		DF6ECA631B309DB800F16498 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		DF6ECA671B309DCA00F16498 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		DF6ECA681B309DCA00F16498 /* SquareParticle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SquareParticle.png; sourceTree = "<group>"; };
+		DF6ECA6B1B309DDC00F16498 /* HitParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HitParticle.sks; sourceTree = "<group>"; };
+		DF6ECA6E1B309E0200F16498 /* 5x5_pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5x5_pixel.ttf; sourceTree = "<group>"; };
+		DF6ECA721B309F3C00F16498 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		DF6ECA731B309F3C00F16498 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		DF6ECA751B30A25D00F16498 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DF6ECA761B30A25D00F16498 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		DF6ECA781B30B4E600F16498 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
+		DF6ECA791B30B4E600F16498 /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
+		DF6ECA7B1B30B6F400F16498 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		DF6ECA7C1B30B6F400F16498 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
+		DF6ECA7E1B30B73B00F16498 /* HudLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudLayer.h; sourceTree = "<group>"; };
+		DF6ECA7F1B30B73B00F16498 /* HudLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudLayer.m; sourceTree = "<group>"; };
+		DF6ECA821B32097C00F16498 /* PhysicsCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsCategories.h; sourceTree = "<group>"; };
+		DF6ECA831B320E3100F16498 /* Bomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bomb.h; sourceTree = "<group>"; };
+		DF6ECA841B320E3100F16498 /* Bomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bomb.m; sourceTree = "<group>"; };
+		DF6ECA861B33590200F16498 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		DF6ECA871B33590300F16498 /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6ECA0F1B3094E900F16498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6ECA2D1B3094E900F16498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6ECA091B3094E900F16498 = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA141B3094E900F16498 /* FunkyBoom */,
+				DF6ECA331B3094E900F16498 /* FunkyBoomTests */,
+				DF6ECA131B3094E900F16498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF6ECA131B3094E900F16498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA121B3094E900F16498 /* FunkyBoom.app */,
+				DF6ECA301B3094E900F16498 /* FunkyBoomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6ECA141B3094E900F16498 /* FunkyBoom */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA711B309E6F00F16498 /* Entity */,
+				DF6ECA701B309E6600F16498 /* Layers */,
+				DF6ECA6F1B309E5A00F16498 /* Persistence */,
+				DF6ECA401B309C9300F16498 /* Resources */,
+				DF6ECA191B3094E900F16498 /* AppDelegate.h */,
+				DF6ECA1A1B3094E900F16498 /* AppDelegate.m */,
+				DF6ECA1C1B3094E900F16498 /* GameScene.h */,
+				DF6ECA1D1B3094E900F16498 /* GameScene.m */,
+				DF6ECA1F1B3094E900F16498 /* GameScene.sks */,
+				DF6ECA211B3094E900F16498 /* GameViewController.h */,
+				DF6ECA221B3094E900F16498 /* GameViewController.m */,
+				DF6ECA241B3094E900F16498 /* Main.storyboard */,
+				DF6ECA271B3094E900F16498 /* Images.xcassets */,
+				DF6ECA291B3094E900F16498 /* LaunchScreen.xib */,
+				DF6ECA151B3094E900F16498 /* Supporting Files */,
+			);
+			path = FunkyBoom;
+			sourceTree = "<group>";
+		};
+		DF6ECA151B3094E900F16498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA161B3094E900F16498 /* Info.plist */,
+				DF6ECA171B3094E900F16498 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF6ECA331B3094E900F16498 /* FunkyBoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA361B3094E900F16498 /* FunkyBoomTests.m */,
+				DF6ECA341B3094E900F16498 /* Supporting Files */,
+			);
+			path = FunkyBoomTests;
+			sourceTree = "<group>";
+		};
+		DF6ECA341B3094E900F16498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA351B3094E900F16498 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF6ECA401B309C9300F16498 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA6B1B309DDC00F16498 /* HitParticle.sks */,
+				DF6ECA6D1B309DED00F16498 /* Fonts */,
+				DF6ECA421B309CBB00F16498 /* Music */,
+				DF6ECA411B309CA400F16498 /* Sprites */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF6ECA411B309CA400F16498 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA431B309CE800F16498 /* attacking1.png */,
+				DF6ECA441B309CE800F16498 /* attacking2.png */,
+				DF6ECA451B309CE800F16498 /* attacking3.png */,
+				DF6ECA461B309CE800F16498 /* attacking4.png */,
+				DF6ECA471B309CE800F16498 /* attacking5.png */,
+				DF6ECA4D1B309D0B00F16498 /* idle1.png */,
+				DF6ECA4E1B309D0B00F16498 /* idle2.png */,
+				DF6ECA4F1B309D0B00F16498 /* idle3.png */,
+				DF6ECA531B309D1B00F16498 /* walking1.png */,
+				DF6ECA541B309D1B00F16498 /* walking2.png */,
+				DF6ECA551B309D1B00F16498 /* walking3.png */,
+				DF6ECA561B309D1B00F16498 /* walking4.png */,
+				DF6ECA5B1B309D2900F16498 /* greenBomb.png */,
+				DF6ECA5C1B309D2900F16498 /* pinkBomb.png */,
+				DF6ECA5D1B309D2900F16498 /* silverBomb.png */,
+				DF6ECA671B309DCA00F16498 /* background.png */,
+				DF6ECA681B309DCA00F16498 /* SquareParticle.png */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		DF6ECA421B309CBB00F16498 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA611B309DB800F16498 /* bombAway.wav */,
+				DF6ECA621B309DB800F16498 /* hitSound.wav */,
+				DF6ECA631B309DB800F16498 /* music.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		DF6ECA6D1B309DED00F16498 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA6E1B309E0200F16498 /* 5x5_pixel.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		DF6ECA6F1B309E5A00F16498 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA861B33590200F16498 /* GameState.h */,
+				DF6ECA871B33590300F16498 /* GameState.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		DF6ECA701B309E6600F16498 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA781B30B4E600F16498 /* GameLayer.h */,
+				DF6ECA791B30B4E600F16498 /* GameLayer.m */,
+				DF6ECA7B1B30B6F400F16498 /* BackgroundLayer.h */,
+				DF6ECA7C1B30B6F400F16498 /* BackgroundLayer.m */,
+				DF6ECA7E1B30B73B00F16498 /* HudLayer.h */,
+				DF6ECA7F1B30B73B00F16498 /* HudLayer.m */,
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		DF6ECA711B309E6F00F16498 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				DF6ECA721B309F3C00F16498 /* GameObject.h */,
+				DF6ECA731B309F3C00F16498 /* GameObject.m */,
+				DF6ECA751B30A25D00F16498 /* Player.h */,
+				DF6ECA761B30A25D00F16498 /* Player.m */,
+				DF6ECA821B32097C00F16498 /* PhysicsCategories.h */,
+				DF6ECA831B320E3100F16498 /* Bomb.h */,
+				DF6ECA841B320E3100F16498 /* Bomb.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6ECA111B3094E900F16498 /* FunkyBoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6ECA3A1B3094E900F16498 /* Build configuration list for PBXNativeTarget "FunkyBoom" */;
+			buildPhases = (
+				DF6ECA0E1B3094E900F16498 /* Sources */,
+				DF6ECA0F1B3094E900F16498 /* Frameworks */,
+				DF6ECA101B3094E900F16498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkyBoom;
+			productName = FunkyBoom;
+			productReference = DF6ECA121B3094E900F16498 /* FunkyBoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF6ECA2F1B3094E900F16498 /* FunkyBoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6ECA3D1B3094E900F16498 /* Build configuration list for PBXNativeTarget "FunkyBoomTests" */;
+			buildPhases = (
+				DF6ECA2C1B3094E900F16498 /* Sources */,
+				DF6ECA2D1B3094E900F16498 /* Frameworks */,
+				DF6ECA2E1B3094E900F16498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6ECA321B3094E900F16498 /* PBXTargetDependency */,
+			);
+			name = FunkyBoomTests;
+			productName = FunkyBoomTests;
+			productReference = DF6ECA301B3094E900F16498 /* FunkyBoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6ECA0A1B3094E900F16498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Danilo Barros Mendes";
+				TargetAttributes = {
+					DF6ECA111B3094E900F16498 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DF6ECA2F1B3094E900F16498 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DF6ECA111B3094E900F16498;
+					};
+				};
+			};
+			buildConfigurationList = DF6ECA0D1B3094E900F16498 /* Build configuration list for PBXProject "FunkyBoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF6ECA091B3094E900F16498;
+			productRefGroup = DF6ECA131B3094E900F16498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF6ECA111B3094E900F16498 /* FunkyBoom */,
+				DF6ECA2F1B3094E900F16498 /* FunkyBoomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6ECA101B3094E900F16498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6ECA891B33629300F16498 /* 5x5_pixel.ttf in Resources */,
+				DF6ECA5A1B309D1B00F16498 /* walking4.png in Resources */,
+				DF6ECA581B309D1B00F16498 /* walking2.png in Resources */,
+				DF6ECA571B309D1B00F16498 /* walking1.png in Resources */,
+				DF6ECA5F1B309D2900F16498 /* pinkBomb.png in Resources */,
+				DF6ECA651B309DB800F16498 /* hitSound.wav in Resources */,
+				DF6ECA2B1B3094E900F16498 /* LaunchScreen.xib in Resources */,
+				DF6ECA491B309CE800F16498 /* attacking2.png in Resources */,
+				DF6ECA641B309DB800F16498 /* bombAway.wav in Resources */,
+				DF6ECA281B3094E900F16498 /* Images.xcassets in Resources */,
+				DF6ECA591B309D1B00F16498 /* walking3.png in Resources */,
+				DF6ECA661B309DB800F16498 /* music.mp3 in Resources */,
+				DF6ECA501B309D0B00F16498 /* idle1.png in Resources */,
+				DF6ECA5E1B309D2900F16498 /* greenBomb.png in Resources */,
+				DF6ECA511B309D0B00F16498 /* idle2.png in Resources */,
+				DF6ECA521B309D0B00F16498 /* idle3.png in Resources */,
+				DF6ECA4B1B309CE800F16498 /* attacking4.png in Resources */,
+				DF6ECA481B309CE800F16498 /* attacking1.png in Resources */,
+				DF6ECA601B309D2900F16498 /* silverBomb.png in Resources */,
+				DF6ECA6A1B309DCA00F16498 /* SquareParticle.png in Resources */,
+				DF6ECA201B3094E900F16498 /* GameScene.sks in Resources */,
+				DF6ECA4A1B309CE800F16498 /* attacking3.png in Resources */,
+				DF6ECA4C1B309CE800F16498 /* attacking5.png in Resources */,
+				DF6ECA6C1B309DDC00F16498 /* HitParticle.sks in Resources */,
+				DF6ECA261B3094E900F16498 /* Main.storyboard in Resources */,
+				DF6ECA691B309DCA00F16498 /* background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6ECA2E1B3094E900F16498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6ECA0E1B3094E900F16498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6ECA741B309F3C00F16498 /* GameObject.m in Sources */,
+				DF6ECA801B30B73B00F16498 /* HudLayer.m in Sources */,
+				DF6ECA7D1B30B6F400F16498 /* BackgroundLayer.m in Sources */,
+				DF6ECA231B3094E900F16498 /* GameViewController.m in Sources */,
+				DF6ECA7A1B30B4E600F16498 /* GameLayer.m in Sources */,
+				DF6ECA881B33590300F16498 /* GameState.m in Sources */,
+				DF6ECA851B320E3100F16498 /* Bomb.m in Sources */,
+				DF6ECA1B1B3094E900F16498 /* AppDelegate.m in Sources */,
+				DF6ECA1E1B3094E900F16498 /* GameScene.m in Sources */,
+				DF6ECA771B30A25D00F16498 /* Player.m in Sources */,
+				DF6ECA181B3094E900F16498 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6ECA2C1B3094E900F16498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6ECA371B3094E900F16498 /* FunkyBoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6ECA321B3094E900F16498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6ECA111B3094E900F16498 /* FunkyBoom */;
+			targetProxy = DF6ECA311B3094E900F16498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF6ECA241B3094E900F16498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6ECA251B3094E900F16498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF6ECA291B3094E900F16498 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6ECA2A1B3094E900F16498 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6ECA381B3094E900F16498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF6ECA391B3094E900F16498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF6ECA3B1B3094E900F16498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunkyBoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6ECA3C1B3094E900F16498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunkyBoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6ECA3E1B3094E900F16498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunkyBoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunkyBoom.app/FunkyBoom";
+			};
+			name = Debug;
+		};
+		DF6ECA3F1B3094E900F16498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunkyBoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunkyBoom.app/FunkyBoom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6ECA0D1B3094E900F16498 /* Build configuration list for PBXProject "FunkyBoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6ECA381B3094E900F16498 /* Debug */,
+				DF6ECA391B3094E900F16498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6ECA3A1B3094E900F16498 /* Build configuration list for PBXNativeTarget "FunkyBoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6ECA3B1B3094E900F16498 /* Debug */,
+				DF6ECA3C1B3094E900F16498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF6ECA3D1B3094E900F16498 /* Build configuration list for PBXNativeTarget "FunkyBoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6ECA3E1B3094E900F16498 /* Debug */,
+				DF6ECA3F1B3094E900F16498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF6ECA0A1B3094E900F16498 /* Project object */;
+}
