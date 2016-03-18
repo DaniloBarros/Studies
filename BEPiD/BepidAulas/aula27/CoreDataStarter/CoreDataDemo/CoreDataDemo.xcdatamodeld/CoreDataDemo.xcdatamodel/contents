@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BEPiD" representedClassName="Bepid" syncable="YES">
+        <attribute name="alunos" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="instituicao" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="instructors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PROFESSOR" inverseName="allocated" inverseEntity="PROFESSOR" syncable="YES"/>
+    </entity>
+    <entity name="PROFESSOR" representedClassName="Professor" syncable="YES">
+        <attribute name="foto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="allocated" maxCount="1" deletionRule="Nullify" destinationEntity="BEPiD" inverseName="instructors" inverseEntity="BEPiD" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BEPiD" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="PROFESSOR" positionX="-54" positionY="9" width="128" height="105"/>
+    </elements>
+</model>

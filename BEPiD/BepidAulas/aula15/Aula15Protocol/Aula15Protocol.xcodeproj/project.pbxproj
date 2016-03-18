@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFD7EF0E1AB76416005AA70C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7EF0D1AB76416005AA70C /* main.m */; };
+		DFD7EF181AB76E04005AA70C /* Rodas.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7EF171AB76E04005AA70C /* Rodas.m */; };
+		DFD7EF1B1AB76E0C005AA70C /* Asas.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7EF1A1AB76E0C005AA70C /* Asas.m */; };
+		DFD7EF1E1AB76E14005AA70C /* Pernas.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7EF1D1AB76E14005AA70C /* Pernas.m */; };
+		DFD7EF211AB76E24005AA70C /* Motor.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7EF201AB76E24005AA70C /* Motor.m */; };
+		DFD7EF241AB76E40005AA70C /* Turbina.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7EF231AB76E40005AA70C /* Turbina.m */; };
+		DFD7EF271AB7729C005AA70C /* Veiculo.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7EF261AB7729C005AA70C /* Veiculo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFD7EF081AB76416005AA70C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFD7EF0A1AB76416005AA70C /* Aula15Protocol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Aula15Protocol; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD7EF0D1AB76416005AA70C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFD7EF141AB76D52005AA70C /* Locomocao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locomocao.h; sourceTree = "<group>"; };
+		DFD7EF151AB76D60005AA70C /* Potencia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potencia.h; sourceTree = "<group>"; };
+		DFD7EF161AB76E04005AA70C /* Rodas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rodas.h; sourceTree = "<group>"; };
+		DFD7EF171AB76E04005AA70C /* Rodas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rodas.m; sourceTree = "<group>"; };
+		DFD7EF191AB76E0C005AA70C /* Asas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asas.h; sourceTree = "<group>"; };
+		DFD7EF1A1AB76E0C005AA70C /* Asas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asas.m; sourceTree = "<group>"; };
+		DFD7EF1C1AB76E14005AA70C /* Pernas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pernas.h; sourceTree = "<group>"; };
+		DFD7EF1D1AB76E14005AA70C /* Pernas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pernas.m; sourceTree = "<group>"; };
+		DFD7EF1F1AB76E24005AA70C /* Motor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Motor.h; sourceTree = "<group>"; };
+		DFD7EF201AB76E24005AA70C /* Motor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Motor.m; sourceTree = "<group>"; };
+		DFD7EF221AB76E40005AA70C /* Turbina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Turbina.h; sourceTree = "<group>"; };
+		DFD7EF231AB76E40005AA70C /* Turbina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Turbina.m; sourceTree = "<group>"; };
+		DFD7EF251AB7729C005AA70C /* Veiculo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Veiculo.h; sourceTree = "<group>"; };
+		DFD7EF261AB7729C005AA70C /* Veiculo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Veiculo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD7EF071AB76416005AA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD7EF011AB76416005AA70C = {
+			isa = PBXGroup;
+			children = (
+				DFD7EF0C1AB76416005AA70C /* Aula15Protocol */,
+				DFD7EF0B1AB76416005AA70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD7EF0B1AB76416005AA70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD7EF0A1AB76416005AA70C /* Aula15Protocol */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD7EF0C1AB76416005AA70C /* Aula15Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DFD7EF0D1AB76416005AA70C /* main.m */,
+				DFD7EF141AB76D52005AA70C /* Locomocao.h */,
+				DFD7EF151AB76D60005AA70C /* Potencia.h */,
+				DFD7EF161AB76E04005AA70C /* Rodas.h */,
+				DFD7EF171AB76E04005AA70C /* Rodas.m */,
+				DFD7EF191AB76E0C005AA70C /* Asas.h */,
+				DFD7EF1A1AB76E0C005AA70C /* Asas.m */,
+				DFD7EF1C1AB76E14005AA70C /* Pernas.h */,
+				DFD7EF1D1AB76E14005AA70C /* Pernas.m */,
+				DFD7EF1F1AB76E24005AA70C /* Motor.h */,
+				DFD7EF251AB7729C005AA70C /* Veiculo.h */,
+				DFD7EF261AB7729C005AA70C /* Veiculo.m */,
+				DFD7EF201AB76E24005AA70C /* Motor.m */,
+				DFD7EF221AB76E40005AA70C /* Turbina.h */,
+				DFD7EF231AB76E40005AA70C /* Turbina.m */,
+			);
+			path = Aula15Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD7EF091AB76416005AA70C /* Aula15Protocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD7EF111AB76416005AA70C /* Build configuration list for PBXNativeTarget "Aula15Protocol" */;
+			buildPhases = (
+				DFD7EF061AB76416005AA70C /* Sources */,
+				DFD7EF071AB76416005AA70C /* Frameworks */,
+				DFD7EF081AB76416005AA70C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aula15Protocol;
+			productName = Aula15Protocol;
+			productReference = DFD7EF0A1AB76416005AA70C /* Aula15Protocol */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD7EF021AB76416005AA70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Danilo Barros Mendes";
+				TargetAttributes = {
+					DFD7EF091AB76416005AA70C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DFD7EF051AB76416005AA70C /* Build configuration list for PBXProject "Aula15Protocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFD7EF011AB76416005AA70C;
+			productRefGroup = DFD7EF0B1AB76416005AA70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD7EF091AB76416005AA70C /* Aula15Protocol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD7EF061AB76416005AA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD7EF271AB7729C005AA70C /* Veiculo.m in Sources */,
+				DFD7EF1E1AB76E14005AA70C /* Pernas.m in Sources */,
+				DFD7EF0E1AB76416005AA70C /* main.m in Sources */,
+				DFD7EF1B1AB76E0C005AA70C /* Asas.m in Sources */,
+				DFD7EF241AB76E40005AA70C /* Turbina.m in Sources */,
+				DFD7EF181AB76E04005AA70C /* Rodas.m in Sources */,
+				DFD7EF211AB76E24005AA70C /* Motor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFD7EF0F1AB76416005AA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFD7EF101AB76416005AA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFD7EF121AB76416005AA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFD7EF131AB76416005AA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD7EF051AB76416005AA70C /* Build configuration list for PBXProject "Aula15Protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD7EF0F1AB76416005AA70C /* Debug */,
+				DFD7EF101AB76416005AA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD7EF111AB76416005AA70C /* Build configuration list for PBXNativeTarget "Aula15Protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD7EF121AB76416005AA70C /* Debug */,
+				DFD7EF131AB76416005AA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD7EF021AB76416005AA70C /* Project object */;
+}
