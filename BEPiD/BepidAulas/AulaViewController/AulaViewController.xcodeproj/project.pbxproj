@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7DFBC71AF7E3E700550EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7DFBC61AF7E3E700550EA4 /* AppDelegate.swift */; };
+		DF7DFBCE1AF7E3E700550EA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7DFBCD1AF7E3E700550EA4 /* Images.xcassets */; };
+		DF7DFBD11AF7E3E700550EA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7DFBCF1AF7E3E700550EA4 /* LaunchScreen.xib */; };
+		DF7DFBDD1AF7E3E700550EA4 /* AulaViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7DFBDC1AF7E3E700550EA4 /* AulaViewControllerTests.swift */; };
+		DF7DFBE71AF7E5D400550EA4 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7DFBE61AF7E5D400550EA4 /* View1.swift */; };
+		DF7DFBE91AF7E85A00550EA4 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7DFBE81AF7E85A00550EA4 /* ViewController1.swift */; };
+		DF7DFBEB1AF7EAB700550EA4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7DFBEA1AF7EAB700550EA4 /* ViewController2.swift */; };
+		DF7DFBED1AF7EC4800550EA4 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7DFBEC1AF7EC4800550EA4 /* ViewController2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7DFBD71AF7E3E700550EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7DFBB91AF7E3E700550EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7DFBC01AF7E3E700550EA4;
+			remoteInfo = AulaViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF7DFBC11AF7E3E700550EA4 /* AulaViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7DFBC51AF7E3E700550EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7DFBC61AF7E3E700550EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF7DFBCD1AF7E3E700550EA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF7DFBD01AF7E3E700550EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF7DFBD61AF7E3E700550EA4 /* AulaViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AulaViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7DFBDB1AF7E3E700550EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7DFBDC1AF7E3E700550EA4 /* AulaViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaViewControllerTests.swift; sourceTree = "<group>"; };
+		DF7DFBE61AF7E5D400550EA4 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		DF7DFBE81AF7E85A00550EA4 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		DF7DFBEA1AF7EAB700550EA4 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		DF7DFBEC1AF7EC4800550EA4 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7DFBBE1AF7E3E700550EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7DFBD31AF7E3E700550EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7DFBB81AF7E3E700550EA4 = {
+			isa = PBXGroup;
+			children = (
+				DF7DFBC31AF7E3E700550EA4 /* AulaViewController */,
+				DF7DFBD91AF7E3E700550EA4 /* AulaViewControllerTests */,
+				DF7DFBC21AF7E3E700550EA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7DFBC21AF7E3E700550EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7DFBC11AF7E3E700550EA4 /* AulaViewController.app */,
+				DF7DFBD61AF7E3E700550EA4 /* AulaViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7DFBC31AF7E3E700550EA4 /* AulaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DF7DFBC61AF7E3E700550EA4 /* AppDelegate.swift */,
+				DF7DFBE81AF7E85A00550EA4 /* ViewController1.swift */,
+				DF7DFBEA1AF7EAB700550EA4 /* ViewController2.swift */,
+				DF7DFBEC1AF7EC4800550EA4 /* ViewController2.xib */,
+				DF7DFBE61AF7E5D400550EA4 /* View1.swift */,
+				DF7DFBCD1AF7E3E700550EA4 /* Images.xcassets */,
+				DF7DFBCF1AF7E3E700550EA4 /* LaunchScreen.xib */,
+				DF7DFBC41AF7E3E700550EA4 /* Supporting Files */,
+			);
+			path = AulaViewController;
+			sourceTree = "<group>";
+		};
+		DF7DFBC41AF7E3E700550EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7DFBC51AF7E3E700550EA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF7DFBD91AF7E3E700550EA4 /* AulaViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7DFBDC1AF7E3E700550EA4 /* AulaViewControllerTests.swift */,
+				DF7DFBDA1AF7E3E700550EA4 /* Supporting Files */,
+			);
+			path = AulaViewControllerTests;
+			sourceTree = "<group>";
+		};
+		DF7DFBDA1AF7E3E700550EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7DFBDB1AF7E3E700550EA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7DFBC01AF7E3E700550EA4 /* AulaViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7DFBE01AF7E3E700550EA4 /* Build configuration list for PBXNativeTarget "AulaViewController" */;
+			buildPhases = (
+				DF7DFBBD1AF7E3E700550EA4 /* Sources */,
+				DF7DFBBE1AF7E3E700550EA4 /* Frameworks */,
+				DF7DFBBF1AF7E3E700550EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AulaViewController;
+			productName = AulaViewController;
+			productReference = DF7DFBC11AF7E3E700550EA4 /* AulaViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7DFBD51AF7E3E700550EA4 /* AulaViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7DFBE31AF7E3E700550EA4 /* Build configuration list for PBXNativeTarget "AulaViewControllerTests" */;
+			buildPhases = (
+				DF7DFBD21AF7E3E700550EA4 /* Sources */,
+				DF7DFBD31AF7E3E700550EA4 /* Frameworks */,
+				DF7DFBD41AF7E3E700550EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7DFBD81AF7E3E700550EA4 /* PBXTargetDependency */,
+			);
+			name = AulaViewControllerTests;
+			productName = AulaViewControllerTests;
+			productReference = DF7DFBD61AF7E3E700550EA4 /* AulaViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7DFBB91AF7E3E700550EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Danilo Barros Mendes";
+				TargetAttributes = {
+					DF7DFBC01AF7E3E700550EA4 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DF7DFBD51AF7E3E700550EA4 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DF7DFBC01AF7E3E700550EA4;
+					};
+				};
+			};
+			buildConfigurationList = DF7DFBBC1AF7E3E700550EA4 /* Build configuration list for PBXProject "AulaViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7DFBB81AF7E3E700550EA4;
+			productRefGroup = DF7DFBC21AF7E3E700550EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7DFBC01AF7E3E700550EA4 /* AulaViewController */,
+				DF7DFBD51AF7E3E700550EA4 /* AulaViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7DFBBF1AF7E3E700550EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7DFBED1AF7EC4800550EA4 /* ViewController2.xib in Resources */,
+				DF7DFBD11AF7E3E700550EA4 /* LaunchScreen.xib in Resources */,
+				DF7DFBCE1AF7E3E700550EA4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7DFBD41AF7E3E700550EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7DFBBD1AF7E3E700550EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7DFBE91AF7E85A00550EA4 /* ViewController1.swift in Sources */,
+				DF7DFBEB1AF7EAB700550EA4 /* ViewController2.swift in Sources */,
+				DF7DFBE71AF7E5D400550EA4 /* View1.swift in Sources */,
+				DF7DFBC71AF7E3E700550EA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7DFBD21AF7E3E700550EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7DFBDD1AF7E3E700550EA4 /* AulaViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF7DFBD81AF7E3E700550EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7DFBC01AF7E3E700550EA4 /* AulaViewController */;
+			targetProxy = DF7DFBD71AF7E3E700550EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF7DFBCF1AF7E3E700550EA4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7DFBD01AF7E3E700550EA4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7DFBDE1AF7E3E700550EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7DFBDF1AF7E3E700550EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7DFBE11AF7E3E700550EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AulaViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF7DFBE21AF7E3E700550EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AulaViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF7DFBE41AF7E3E700550EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AulaViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AulaViewController.app/AulaViewController";
+			};
+			name = Debug;
+		};
+		DF7DFBE51AF7E3E700550EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AulaViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AulaViewController.app/AulaViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7DFBBC1AF7E3E700550EA4 /* Build configuration list for PBXProject "AulaViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7DFBDE1AF7E3E700550EA4 /* Debug */,
+				DF7DFBDF1AF7E3E700550EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7DFBE01AF7E3E700550EA4 /* Build configuration list for PBXNativeTarget "AulaViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7DFBE11AF7E3E700550EA4 /* Debug */,
+				DF7DFBE21AF7E3E700550EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF7DFBE31AF7E3E700550EA4 /* Build configuration list for PBXNativeTarget "AulaViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7DFBE41AF7E3E700550EA4 /* Debug */,
+				DF7DFBE51AF7E3E700550EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7DFBB91AF7E3E700550EA4 /* Project object */;
+}

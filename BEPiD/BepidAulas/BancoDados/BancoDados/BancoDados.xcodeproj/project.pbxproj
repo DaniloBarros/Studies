@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1173351B4C392900CABDD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1173341B4C392900CABDD1 /* main.m */; };
+		DF1173381B4C392900CABDD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1173371B4C392900CABDD1 /* AppDelegate.m */; };
+		DF11733B1B4C392900CABDD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF11733A1B4C392900CABDD1 /* ViewController.m */; };
+		DF11733E1B4C392900CABDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF11733C1B4C392900CABDD1 /* Main.storyboard */; };
+		DF1173401B4C392900CABDD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF11733F1B4C392900CABDD1 /* Images.xcassets */; };
+		DF1173431B4C392900CABDD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1173411B4C392900CABDD1 /* LaunchScreen.xib */; };
+		DF11734F1B4C392900CABDD1 /* BancoDadosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF11734E1B4C392900CABDD1 /* BancoDadosTests.m */; };
+		DF11735B1B4C396300CABDD1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF11735A1B4C396300CABDD1 /* libsqlite3.0.dylib */; };
+		DF11735D1B4C397400CABDD1 /* Aluno.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DF11735C1B4C397400CABDD1 /* Aluno.sqlite */; };
+		DF1173641B4C3CCC00CABDD1 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1173631B4C3CCC00CABDD1 /* Usuario.m */; };
+		DF1173671B4C3CDB00CABDD1 /* AlunoDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1173661B4C3CDB00CABDD1 /* AlunoDAO.m */; };
+		DF1173A21B4C65AE00CABDD1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DF11739D1B4C65AE00CABDD1 /* FMDatabase.m */; };
+		DF1173A31B4C65AE00CABDD1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF11739F1B4C65AE00CABDD1 /* FMDatabaseAdditions.m */; };
+		DF1173A41B4C65AE00CABDD1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1173A11B4C65AE00CABDD1 /* FMResultSet.m */; };
+		DF1173E91B4F13FF00CABDD1 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1173E81B4F13FF00CABDD1 /* TableView.m */; };
+		DF1173EC1B4F16AC00CABDD1 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1173EB1B4F16AC00CABDD1 /* Cell.m */; };
+		DF1173EF1B5551E300CABDD1 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1173EE1B5551E300CABDD1 /* DetailView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF1173491B4C392900CABDD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF1173271B4C392900CABDD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF11732E1B4C392900CABDD1;
+			remoteInfo = BancoDados;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF11732F1B4C392900CABDD1 /* BancoDados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BancoDados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1173331B4C392900CABDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1173341B4C392900CABDD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF1173361B4C392900CABDD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF1173371B4C392900CABDD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF1173391B4C392900CABDD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF11733A1B4C392900CABDD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF11733D1B4C392900CABDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF11733F1B4C392900CABDD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF1173421B4C392900CABDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF1173481B4C392900CABDD1 /* BancoDadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BancoDadosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF11734D1B4C392900CABDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF11734E1B4C392900CABDD1 /* BancoDadosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BancoDadosTests.m; sourceTree = "<group>"; };
+		DF11735A1B4C396300CABDD1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		DF11735C1B4C397400CABDD1 /* Aluno.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Aluno.sqlite; path = ../../Aluno.sqlite; sourceTree = "<group>"; };
+		DF1173621B4C3CCC00CABDD1 /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		DF1173631B4C3CCC00CABDD1 /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		DF1173651B4C3CDB00CABDD1 /* AlunoDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlunoDAO.h; sourceTree = "<group>"; };
+		DF1173661B4C3CDB00CABDD1 /* AlunoDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlunoDAO.m; sourceTree = "<group>"; };
+		DF11739C1B4C65AE00CABDD1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		DF11739D1B4C65AE00CABDD1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		DF11739E1B4C65AE00CABDD1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DF11739F1B4C65AE00CABDD1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DF1173A01B4C65AE00CABDD1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		DF1173A11B4C65AE00CABDD1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		DF1173E71B4F13FF00CABDD1 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		DF1173E81B4F13FF00CABDD1 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		DF1173EA1B4F16AC00CABDD1 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		DF1173EB1B4F16AC00CABDD1 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		DF1173ED1B5551E300CABDD1 /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		DF1173EE1B5551E300CABDD1 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF11732C1B4C392900CABDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF11735B1B4C396300CABDD1 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1173451B4C392900CABDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF1173261B4C392900CABDD1 = {
+			isa = PBXGroup;
+			children = (
+				DF11735A1B4C396300CABDD1 /* libsqlite3.0.dylib */,
+				DF1173311B4C392900CABDD1 /* BancoDados */,
+				DF11734B1B4C392900CABDD1 /* BancoDadosTests */,
+				DF1173301B4C392900CABDD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF1173301B4C392900CABDD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF11732F1B4C392900CABDD1 /* BancoDados.app */,
+				DF1173481B4C392900CABDD1 /* BancoDadosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF1173311B4C392900CABDD1 /* BancoDados */ = {
+			isa = PBXGroup;
+			children = (
+				DF1173611B4C3A1800CABDD1 /* SQL */,
+				DF1173601B4C3A1000CABDD1 /* Framework */,
+				DF11735F1B4C3A0500CABDD1 /* DAO */,
+				DF11735E1B4C39F700CABDD1 /* Model */,
+				DF1173361B4C392900CABDD1 /* AppDelegate.h */,
+				DF1173371B4C392900CABDD1 /* AppDelegate.m */,
+				DF1173391B4C392900CABDD1 /* ViewController.h */,
+				DF11733A1B4C392900CABDD1 /* ViewController.m */,
+				DF1173E71B4F13FF00CABDD1 /* TableView.h */,
+				DF1173E81B4F13FF00CABDD1 /* TableView.m */,
+				DF1173EA1B4F16AC00CABDD1 /* Cell.h */,
+				DF1173EB1B4F16AC00CABDD1 /* Cell.m */,
+				DF1173ED1B5551E300CABDD1 /* DetailView.h */,
+				DF1173EE1B5551E300CABDD1 /* DetailView.m */,
+				DF11733C1B4C392900CABDD1 /* Main.storyboard */,
+				DF11733F1B4C392900CABDD1 /* Images.xcassets */,
+				DF1173411B4C392900CABDD1 /* LaunchScreen.xib */,
+				DF1173321B4C392900CABDD1 /* Supporting Files */,
+			);
+			path = BancoDados;
+			sourceTree = "<group>";
+		};
+		DF1173321B4C392900CABDD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF1173331B4C392900CABDD1 /* Info.plist */,
+				DF1173341B4C392900CABDD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF11734B1B4C392900CABDD1 /* BancoDadosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF11734E1B4C392900CABDD1 /* BancoDadosTests.m */,
+				DF11734C1B4C392900CABDD1 /* Supporting Files */,
+			);
+			path = BancoDadosTests;
+			sourceTree = "<group>";
+		};
+		DF11734C1B4C392900CABDD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF11734D1B4C392900CABDD1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF11735E1B4C39F700CABDD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF1173621B4C3CCC00CABDD1 /* Usuario.h */,
+				DF1173631B4C3CCC00CABDD1 /* Usuario.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DF11735F1B4C3A0500CABDD1 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				DF1173651B4C3CDB00CABDD1 /* AlunoDAO.h */,
+				DF1173661B4C3CDB00CABDD1 /* AlunoDAO.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		DF1173601B4C3A1000CABDD1 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				DF11739C1B4C65AE00CABDD1 /* FMDatabase.h */,
+				DF11739D1B4C65AE00CABDD1 /* FMDatabase.m */,
+				DF11739E1B4C65AE00CABDD1 /* FMDatabaseAdditions.h */,
+				DF11739F1B4C65AE00CABDD1 /* FMDatabaseAdditions.m */,
+				DF1173A01B4C65AE00CABDD1 /* FMResultSet.h */,
+				DF1173A11B4C65AE00CABDD1 /* FMResultSet.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		DF1173611B4C3A1800CABDD1 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				DF11735C1B4C397400CABDD1 /* Aluno.sqlite */,
+			);
+			name = SQL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF11732E1B4C392900CABDD1 /* BancoDados */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1173521B4C392900CABDD1 /* Build configuration list for PBXNativeTarget "BancoDados" */;
+			buildPhases = (
+				DF11732B1B4C392900CABDD1 /* Sources */,
+				DF11732C1B4C392900CABDD1 /* Frameworks */,
+				DF11732D1B4C392900CABDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BancoDados;
+			productName = BancoDados;
+			productReference = DF11732F1B4C392900CABDD1 /* BancoDados.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF1173471B4C392900CABDD1 /* BancoDadosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1173551B4C392900CABDD1 /* Build configuration list for PBXNativeTarget "BancoDadosTests" */;
+			buildPhases = (
+				DF1173441B4C392900CABDD1 /* Sources */,
+				DF1173451B4C392900CABDD1 /* Frameworks */,
+				DF1173461B4C392900CABDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF11734A1B4C392900CABDD1 /* PBXTargetDependency */,
+			);
+			name = BancoDadosTests;
+			productName = BancoDadosTests;
+			productReference = DF1173481B4C392900CABDD1 /* BancoDadosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF1173271B4C392900CABDD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Danilo Barros Mendes";
+				TargetAttributes = {
+					DF11732E1B4C392900CABDD1 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DF1173471B4C392900CABDD1 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DF11732E1B4C392900CABDD1;
+					};
+				};
+			};
+			buildConfigurationList = DF11732A1B4C392900CABDD1 /* Build configuration list for PBXProject "BancoDados" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF1173261B4C392900CABDD1;
+			productRefGroup = DF1173301B4C392900CABDD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF11732E1B4C392900CABDD1 /* BancoDados */,
+				DF1173471B4C392900CABDD1 /* BancoDadosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF11732D1B4C392900CABDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF11735D1B4C397400CABDD1 /* Aluno.sqlite in Resources */,
+				DF11733E1B4C392900CABDD1 /* Main.storyboard in Resources */,
+				DF1173431B4C392900CABDD1 /* LaunchScreen.xib in Resources */,
+				DF1173401B4C392900CABDD1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1173461B4C392900CABDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF11732B1B4C392900CABDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1173E91B4F13FF00CABDD1 /* TableView.m in Sources */,
+				DF1173641B4C3CCC00CABDD1 /* Usuario.m in Sources */,
+				DF11733B1B4C392900CABDD1 /* ViewController.m in Sources */,
+				DF1173671B4C3CDB00CABDD1 /* AlunoDAO.m in Sources */,
+				DF1173A21B4C65AE00CABDD1 /* FMDatabase.m in Sources */,
+				DF1173EC1B4F16AC00CABDD1 /* Cell.m in Sources */,
+				DF1173381B4C392900CABDD1 /* AppDelegate.m in Sources */,
+				DF1173A31B4C65AE00CABDD1 /* FMDatabaseAdditions.m in Sources */,
+				DF1173A41B4C65AE00CABDD1 /* FMResultSet.m in Sources */,
+				DF1173EF1B5551E300CABDD1 /* DetailView.m in Sources */,
+				DF1173351B4C392900CABDD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1173441B4C392900CABDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF11734F1B4C392900CABDD1 /* BancoDadosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF11734A1B4C392900CABDD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF11732E1B4C392900CABDD1 /* BancoDados */;
+			targetProxy = DF1173491B4C392900CABDD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF11733C1B4C392900CABDD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF11733D1B4C392900CABDD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1173411B4C392900CABDD1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1173421B4C392900CABDD1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF1173501B4C392900CABDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF1173511B4C392900CABDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF1173531B4C392900CABDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BancoDados/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF1173541B4C392900CABDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BancoDados/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF1173561B4C392900CABDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BancoDadosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BancoDados.app/BancoDados";
+			};
+			name = Debug;
+		};
+		DF1173571B4C392900CABDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BancoDadosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BancoDados.app/BancoDados";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF11732A1B4C392900CABDD1 /* Build configuration list for PBXProject "BancoDados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1173501B4C392900CABDD1 /* Debug */,
+				DF1173511B4C392900CABDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1173521B4C392900CABDD1 /* Build configuration list for PBXNativeTarget "BancoDados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1173531B4C392900CABDD1 /* Debug */,
+				DF1173541B4C392900CABDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF1173551B4C392900CABDD1 /* Build configuration list for PBXNativeTarget "BancoDadosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1173561B4C392900CABDD1 /* Debug */,
+				DF1173571B4C392900CABDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF1173271B4C392900CABDD1 /* Project object */;
+}
