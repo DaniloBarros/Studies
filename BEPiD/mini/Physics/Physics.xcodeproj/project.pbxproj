@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCFF33D1ADD9917001869B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCFF33C1ADD9917001869B5 /* main.m */; };
+		DFCFF3401ADD9917001869B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCFF33F1ADD9917001869B5 /* AppDelegate.m */; };
+		DFCFF3431ADD9917001869B5 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCFF3421ADD9917001869B5 /* GameScene.m */; };
+		DFCFF3451ADD9917001869B5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF3441ADD9917001869B5 /* GameScene.sks */; };
+		DFCFF3481ADD9917001869B5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCFF3471ADD9917001869B5 /* GameViewController.m */; };
+		DFCFF34B1ADD9917001869B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF3491ADD9917001869B5 /* Main.storyboard */; };
+		DFCFF34D1ADD9917001869B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF34C1ADD9917001869B5 /* Images.xcassets */; };
+		DFCFF3501ADD9917001869B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF34E1ADD9917001869B5 /* LaunchScreen.xib */; };
+		DFCFF35C1ADD9917001869B5 /* PhysicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCFF35B1ADD9917001869B5 /* PhysicsTests.m */; };
+		DFCFF36B1ADDA12A001869B5 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF3661ADDA12A001869B5 /* circle.png */; };
+		DFCFF36C1ADDA12A001869B5 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF3671ADDA12A001869B5 /* octagon.png */; };
+		DFCFF36D1ADDA12A001869B5 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF3681ADDA12A001869B5 /* sand.png */; };
+		DFCFF36E1ADDA12A001869B5 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF3691ADDA12A001869B5 /* square.png */; };
+		DFCFF36F1ADDA12A001869B5 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCFF36A1ADDA12A001869B5 /* triangle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFCFF3561ADD9917001869B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFCFF32F1ADD9917001869B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCFF3361ADD9917001869B5;
+			remoteInfo = Physics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFCFF3371ADD9917001869B5 /* Physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Physics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCFF33B1ADD9917001869B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCFF33C1ADD9917001869B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFCFF33E1ADD9917001869B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFCFF33F1ADD9917001869B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFCFF3411ADD9917001869B5 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DFCFF3421ADD9917001869B5 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DFCFF3441ADD9917001869B5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DFCFF3461ADD9917001869B5 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DFCFF3471ADD9917001869B5 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DFCFF34A1ADD9917001869B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFCFF34C1ADD9917001869B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFCFF34F1ADD9917001869B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFCFF3551ADD9917001869B5 /* PhysicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCFF35A1ADD9917001869B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCFF35B1ADD9917001869B5 /* PhysicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsTests.m; sourceTree = "<group>"; };
+		DFCFF3661ADDA12A001869B5 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		DFCFF3671ADDA12A001869B5 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
+		DFCFF3681ADDA12A001869B5 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		DFCFF3691ADDA12A001869B5 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		DFCFF36A1ADDA12A001869B5 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCFF3341ADD9917001869B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCFF3521ADD9917001869B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCFF32E1ADD9917001869B5 = {
+			isa = PBXGroup;
+			children = (
+				DFCFF3391ADD9917001869B5 /* Physics */,
+				DFCFF3581ADD9917001869B5 /* PhysicsTests */,
+				DFCFF3381ADD9917001869B5 /* Products */,
+				DFCFF3651ADDA12A001869B5 /* Shapes */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCFF3381ADD9917001869B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCFF3371ADD9917001869B5 /* Physics.app */,
+				DFCFF3551ADD9917001869B5 /* PhysicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCFF3391ADD9917001869B5 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				DFCFF33E1ADD9917001869B5 /* AppDelegate.h */,
+				DFCFF33F1ADD9917001869B5 /* AppDelegate.m */,
+				DFCFF3411ADD9917001869B5 /* GameScene.h */,
+				DFCFF3421ADD9917001869B5 /* GameScene.m */,
+				DFCFF3441ADD9917001869B5 /* GameScene.sks */,
+				DFCFF3461ADD9917001869B5 /* GameViewController.h */,
+				DFCFF3471ADD9917001869B5 /* GameViewController.m */,
+				DFCFF3491ADD9917001869B5 /* Main.storyboard */,
+				DFCFF34C1ADD9917001869B5 /* Images.xcassets */,
+				DFCFF34E1ADD9917001869B5 /* LaunchScreen.xib */,
+				DFCFF33A1ADD9917001869B5 /* Supporting Files */,
+			);
+			path = Physics;
+			sourceTree = "<group>";
+		};
+		DFCFF33A1ADD9917001869B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCFF33B1ADD9917001869B5 /* Info.plist */,
+				DFCFF33C1ADD9917001869B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFCFF3581ADD9917001869B5 /* PhysicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFCFF35B1ADD9917001869B5 /* PhysicsTests.m */,
+				DFCFF3591ADD9917001869B5 /* Supporting Files */,
+			);
+			path = PhysicsTests;
+			sourceTree = "<group>";
+		};
+		DFCFF3591ADD9917001869B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCFF35A1ADD9917001869B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFCFF3651ADDA12A001869B5 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				DFCFF3661ADDA12A001869B5 /* circle.png */,
+				DFCFF3671ADDA12A001869B5 /* octagon.png */,
+				DFCFF3681ADDA12A001869B5 /* sand.png */,
+				DFCFF3691ADDA12A001869B5 /* square.png */,
+				DFCFF36A1ADDA12A001869B5 /* triangle.png */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCFF3361ADD9917001869B5 /* Physics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCFF35F1ADD9917001869B5 /* Build configuration list for PBXNativeTarget "Physics" */;
+			buildPhases = (
+				DFCFF3331ADD9917001869B5 /* Sources */,
+				DFCFF3341ADD9917001869B5 /* Frameworks */,
+				DFCFF3351ADD9917001869B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Physics;
+			productName = Physics;
+			productReference = DFCFF3371ADD9917001869B5 /* Physics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFCFF3541ADD9917001869B5 /* PhysicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCFF3621ADD9917001869B5 /* Build configuration list for PBXNativeTarget "PhysicsTests" */;
+			buildPhases = (
+				DFCFF3511ADD9917001869B5 /* Sources */,
+				DFCFF3521ADD9917001869B5 /* Frameworks */,
+				DFCFF3531ADD9917001869B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFCFF3571ADD9917001869B5 /* PBXTargetDependency */,
+			);
+			name = PhysicsTests;
+			productName = PhysicsTests;
+			productReference = DFCFF3551ADD9917001869B5 /* PhysicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCFF32F1ADD9917001869B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Danilo Barros Mendes";
+				TargetAttributes = {
+					DFCFF3361ADD9917001869B5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DFCFF3541ADD9917001869B5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DFCFF3361ADD9917001869B5;
+					};
+				};
+			};
+			buildConfigurationList = DFCFF3321ADD9917001869B5 /* Build configuration list for PBXProject "Physics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFCFF32E1ADD9917001869B5;
+			productRefGroup = DFCFF3381ADD9917001869B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCFF3361ADD9917001869B5 /* Physics */,
+				DFCFF3541ADD9917001869B5 /* PhysicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCFF3351ADD9917001869B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCFF3501ADD9917001869B5 /* LaunchScreen.xib in Resources */,
+				DFCFF34D1ADD9917001869B5 /* Images.xcassets in Resources */,
+				DFCFF36D1ADDA12A001869B5 /* sand.png in Resources */,
+				DFCFF36B1ADDA12A001869B5 /* circle.png in Resources */,
+				DFCFF36F1ADDA12A001869B5 /* triangle.png in Resources */,
+				DFCFF36C1ADDA12A001869B5 /* octagon.png in Resources */,
+				DFCFF3451ADD9917001869B5 /* GameScene.sks in Resources */,
+				DFCFF36E1ADDA12A001869B5 /* square.png in Resources */,
+				DFCFF34B1ADD9917001869B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCFF3531ADD9917001869B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCFF3331ADD9917001869B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCFF3481ADD9917001869B5 /* GameViewController.m in Sources */,
+				DFCFF3401ADD9917001869B5 /* AppDelegate.m in Sources */,
+				DFCFF3431ADD9917001869B5 /* GameScene.m in Sources */,
+				DFCFF33D1ADD9917001869B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCFF3511ADD9917001869B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCFF35C1ADD9917001869B5 /* PhysicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFCFF3571ADD9917001869B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFCFF3361ADD9917001869B5 /* Physics */;
+			targetProxy = DFCFF3561ADD9917001869B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFCFF3491ADD9917001869B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCFF34A1ADD9917001869B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFCFF34E1ADD9917001869B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCFF34F1ADD9917001869B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFCFF35D1ADD9917001869B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFCFF35E1ADD9917001869B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFCFF3601ADD9917001869B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Physics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFCFF3611ADD9917001869B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Physics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFCFF3631ADD9917001869B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhysicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics.app/Physics";
+			};
+			name = Debug;
+		};
+		DFCFF3641ADD9917001869B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhysicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics.app/Physics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCFF3321ADD9917001869B5 /* Build configuration list for PBXProject "Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCFF35D1ADD9917001869B5 /* Debug */,
+				DFCFF35E1ADD9917001869B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCFF35F1ADD9917001869B5 /* Build configuration list for PBXNativeTarget "Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCFF3601ADD9917001869B5 /* Debug */,
+				DFCFF3611ADD9917001869B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFCFF3621ADD9917001869B5 /* Build configuration list for PBXNativeTarget "PhysicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCFF3631ADD9917001869B5 /* Debug */,
+				DFCFF3641ADD9917001869B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFCFF32F1ADD9917001869B5 /* Project object */;
+}
